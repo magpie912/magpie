@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage version="1">
+	<file path="/home/roland/magpie/main.cs">
+		<lineToCover lineNumber="5" covered="true"/>
+		<lineToCover lineNumber="7" covered="true"/>
+		<lineToCover lineNumber="8" covered="true"/>
+		<lineToCover lineNumber="9" covered="true"/>
+		<lineToCover lineNumber="10" covered="true"/>
+		<lineToCover lineNumber="12" covered="true"/>
+		<lineToCover lineNumber="13" covered="true"/>
+		<lineToCover lineNumber="14" covered="true"/>
+		<lineToCover lineNumber="15" covered="true"/>
+		<lineToCover lineNumber="16" covered="true"/>
+		<lineToCover lineNumber="18" covered="true"/>
+		<lineToCover lineNumber="19" covered="true"/>
+		<lineToCover lineNumber="20" covered="true"/>
+		<lineToCover lineNumber="21" covered="false"/>
+		<lineToCover lineNumber="22" covered="false"/>
+		<lineToCover lineNumber="24" covered="true"/>
+		<lineToCover lineNumber="27" covered="true"/>
+	</file>
+	<file path="/home/roland/magpie/prime.cs">
+		<lineToCover lineNumber="4" covered="true"/>
+		<lineToCover lineNumber="6" covered="true"/>
+		<lineToCover lineNumber="8" covered="true" branchesToCover="8" coveredBranches="3"/>
+		<lineToCover lineNumber="9" covered="true"/>
+		<lineToCover lineNumber="10" covered="false"/>
+		<lineToCover lineNumber="11" covered="false"/>
+		<lineToCover lineNumber="14" covered="false"/>
+		<lineToCover lineNumber="15" covered="false"/>
+		<lineToCover lineNumber="16" covered="false"/>
+		<lineToCover lineNumber="20" covered="false"/>
+	</file>
+</coverage>

@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "https://www.rkvalidate.com/xml/rktracer-04.dtd">
+<coverage line-rate="0.7037037037037037" branch-rate="0.7428571428571429" lines-covered="19" lines-valid="27" branches-covered="26" branches-valid="35" stmt="64% (16/25)" mcc="70% (19/27)" lines="70% ((16+3)/27)" rktracer="2022" complexity="7.25" version="2.7.1" timestamp="1707933714840">
+<sources>
+<source>C:</source>
+<source>D:</source>
+<source>E:</source>
+<source>F:</source>
+<source>G:</source>
+<source>H:</source>
+<source>I:</source>
+<source>J:</source>
+<source>K:</source>
+<source>L:</source>
+<source>M:</source>
+<source>N:</source>
+<source>O:</source>
+<source>P:</source>
+<source>Q:</source>
+<source>R:</source>
+<source>S:</source>
+<source>T:</source>
+<source>U:</source>
+<source>V:</source>
+<source>W:</source>
+<source>X:</source>
+<source>Y:</source>
+<source>Z:</source>
+<source>/</source>
+</sources>
+<directories>
+<directory name="magpie" lines="70% ((16+3)/27)" mcc="44% (11/25)" stmt="64% (16/25)" dirpath="/home/roland/magpie/magpie" line-rate="0.7037037037037037" branch-rate="0.7428571428571429" complexity="17.27">
+<file name="home/roland/magpie/main.cs" filename="main.cs" dirpath="/home/roland/magpie" fullname="/home/roland/magpie/main.cs" mcc="88% (7/8)" stmt="93% (13/14)" line-rate="0.8823529411764706" branch-rate="0.9473684210526315" complexity="5.01" lines="88% ((14+1)/17)">
+<functions>
+<function name="Main"  signature="()"  mcc="88% (7/8)" stmt="93% (13/14)" complexity="5.01" line-rate="0.8823529411764706" lines="88% ((14+1)/17)" branch-rate="0.9473684210526315">
+<lines>
+<line number="5" hits="1" render="PHNwYW4gaWQ9Ik1haW5fXyIgc3R5bGU9InBhZGRpbmctbGVmdDo0Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJncmVlbiI+c3RhdGljIHZvaWQgTWFpbihzdHJpbmdbXSBhcmdzKQ==" c="3" branch="false"/>
+<line number="7" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPmludMKgdG90YWxzwqA9wqAwOzwvc3Bhbj4=" c="7" branch="false"/>
+<line number="8" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPmludMKgdHJ1ZXPCoD3CoDA7PC9zcGFuPg==" c="7" branch="false"/>
+<line number="9" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPmxvbmfCoHZhbHVlOzwvc3Bhbj4=" c="7" branch="false"/>
+<line number="10" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPkNvbnNvbGUuV3JpdGVMaW5lKCZxdW90O0PCoHByb2dyYW3CoGZvcsKgaWxsdXN0cmF0aW5nwqBjb2RlwqBjb3ZlcmFnZSZxdW90Oyk7PC9zcGFuPg==" c="7" branch="false"/>
+<line number="12" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJncmVlbiI+d2hpbGUgKHRydWUpIHs=" c="3" branch="false"/>
+<line number="13" hits="2" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPkNvbnNvbGUuV3JpdGUoJnF1b3Q7RW50ZXLCoG51bWJlcsKgdG/CoHRlc3TCoGZvcsKgcHJpbWFsaXR5OsKgJnF1b3Q7KTs=" c="7" branch="false"/>
+<line number="14" hits="2" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPnZhcsKgaW5wdXTCoD3CoENvbnNvbGUuUmVhZExpbmUoKTs=" c="7" branch="false"/>
+<line number="15" hits="2" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJncmVlbiI+aWYoPHNwYW4gY2xhc3M9ImdyZWVuIiB0aXRsZT0iMSAgIFRydWUmIzEwOzEgICBGYWxzZSYjMTA7Ij4hSW50NjQuVHJ5UGFyc2UoaW5wdXQsIG91dCB2YWx1ZSk8L3NwYW4+KSA8c3BhbiBjbGFzcz0iZ3JlZW4iPns=" c="3" branch="true"  T="1" F="1" content="CTEJMQkJaWYgKCFJbnQ2NC5UcnlQYXJzZShpbnB1dCxvdXR2YWx1ZSkpCgk=" condition-coverage="100% (2/2)">
+<conditions>
+<condition number="0" type="jump" T="1" F="1" operator="if" argument="(!Int64.TryParse(input,outvalue))" coverage="100%"/>
+</conditions>
+</line>
+<line number="16" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoyY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJncmVlbiI+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPmJyZWFrOw==" c="3" branch="false"/>
+<line number="18" hits="2" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InllbGxvdyI+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPmlmICg8c3BhbiBjbGFzcz0ieWVsbG93IiB0aXRsZT0iMSAgIFRydWUmIzEwOzAgICBGYWxzZSYjMTA7Ij5QcmltZS5pc1ByaW1lKHZhbHVlKTwvc3Bhbj4pIDxzcGFuIGNsYXNzPSJncmVlbiI+ew==" c="2" branch="true"  T="1" F="0" content="CTEJMAkJaWYgKFByaW1lLmlzUHJpbWUodmFsdWUpKQoJ" condition-coverage="50% (1/2)">
+<conditions>
+<condition number="0" type="jump" T="1" F="0" operator="if" argument="(Prime.isPrime(value))" coverage="50%"/>
+</conditions>
+</line>
+<line number="19" hits="2" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoyY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJncmVlbiI+PHNwYW4gY2xhc3M9ImdyZWVuIj5Db25zb2xlLldyaXRlTGluZSh2YWx1ZcKgK8KgJnF1b3Q7wqBpc8KgYcKgcHJpbWXCoG51bWJlciZxdW90Oyk7" c="7" branch="false"/>
+<line number="20" hits="2" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoyY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJncmVlbiI+PHNwYW4gY2xhc3M9ImdyZWVuIj50cnVlcysrOw==" c="7" branch="false"/>
+<line number="21" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJncmVlbiI+fTwvc3Bhbj7CoGVsc2XCoDxzcGFuIGNsYXNzPSJyZWQiPns=" c="5" branch="false"/>
+<line number="22" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoyY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJyZWQiPkNvbnNvbGUuV3JpdGVMaW5lKHZhbHVlwqArwqAmcXVvdDvCoGlzwqBub3TCoGHCoHByaW1lJnF1b3Q7KTs=" c="5" branch="false"/>
+<line number="24" hits="2" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPnRvdGFscysrOw==" c="7" branch="false"/>
+<line number="27" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPkNvbnNvbGUuV3JpdGVMaW5lKCZxdW90O8KgLSZndDvCoCZxdW90Oyt0cnVlcysmcXVvdDsvJnF1b3Q7K3RvdGFscysmcXVvdDvCoHRlc3RzwqByZXN1bHRlZMKgaW7CoGHCoHByaW1lwqBudW1iZXJcbiZxdW90Oyk7" c="7" branch="false"/>
+</lines>
+</function>
+</functions>
+<lines>
+<line number="1" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDowY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPnVzaW5nwqBTeXN0ZW07PC9zcGFuPg==" c="4" branch="false"/>
+<line number="2" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDowY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPjwvc3Bhbj4=" c="4" branch="false"/>
+<line number="3" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDowY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPmNsYXNzwqBNeU1haW48L3NwYW4+" c="4" branch="false"/>
+<line number="4" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDowY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPns8L3NwYW4+" c="4" branch="false"/>
+<line number="5" hits="1" render="PHNwYW4gaWQ9Ik1haW5fXyIgc3R5bGU9InBhZGRpbmctbGVmdDo0Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJncmVlbiI+c3RhdGljIHZvaWQgTWFpbihzdHJpbmdbXSBhcmdzKQ==" c="3" branch="false"/>
+<line number="6" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo0Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPns8L3NwYW4+" c="4" branch="false"/>
+<line number="7" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPmludMKgdG90YWxzwqA9wqAwOzwvc3Bhbj4=" c="7" branch="false"/>
+<line number="8" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPmludMKgdHJ1ZXPCoD3CoDA7PC9zcGFuPg==" c="7" branch="false"/>
+<line number="9" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPmxvbmfCoHZhbHVlOzwvc3Bhbj4=" c="7" branch="false"/>
+<line number="10" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPkNvbnNvbGUuV3JpdGVMaW5lKCZxdW90O0PCoHByb2dyYW3CoGZvcsKgaWxsdXN0cmF0aW5nwqBjb2RlwqBjb3ZlcmFnZSZxdW90Oyk7PC9zcGFuPg==" c="7" branch="false"/>
+<line number="11" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDowY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPjwvc3Bhbj4=" c="4" branch="false"/>
+<line number="12" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJncmVlbiI+d2hpbGUgKHRydWUpIHs=" c="3" branch="false"/>
+<line number="13" hits="2" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPkNvbnNvbGUuV3JpdGUoJnF1b3Q7RW50ZXLCoG51bWJlcsKgdG/CoHRlc3TCoGZvcsKgcHJpbWFsaXR5OsKgJnF1b3Q7KTs=" c="7" branch="false"/>
+<line number="14" hits="2" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPnZhcsKgaW5wdXTCoD3CoENvbnNvbGUuUmVhZExpbmUoKTs=" c="7" branch="false"/>
+<line number="15" hits="2" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJncmVlbiI+aWYoPHNwYW4gY2xhc3M9ImdyZWVuIiB0aXRsZT0iMSAgIFRydWUmIzEwOzEgICBGYWxzZSYjMTA7Ij4hSW50NjQuVHJ5UGFyc2UoaW5wdXQsIG91dCB2YWx1ZSk8L3NwYW4+KSA8c3BhbiBjbGFzcz0iZ3JlZW4iPns=" c="3" branch="true"  T="1" F="1" content="CTEJMQkJaWYgKCFJbnQ2NC5UcnlQYXJzZShpbnB1dCxvdXR2YWx1ZSkpCgk=" condition-coverage="100% (2/2)">
+<conditions>
+<condition number="0" type="jump" T="1" F="1" operator="if" argument="(!Int64.TryParse(input,outvalue))" coverage="100%"/>
+</conditions>
+</line>
+<line number="16" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoyY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJncmVlbiI+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPmJyZWFrOw==" c="3" branch="false"/>
+<line number="17" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPn08L3NwYW4+" c="4" branch="false"/>
+<line number="18" hits="2" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InllbGxvdyI+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPmlmICg8c3BhbiBjbGFzcz0ieWVsbG93IiB0aXRsZT0iMSAgIFRydWUmIzEwOzAgICBGYWxzZSYjMTA7Ij5QcmltZS5pc1ByaW1lKHZhbHVlKTwvc3Bhbj4pIDxzcGFuIGNsYXNzPSJncmVlbiI+ew==" c="2" branch="true"  T="1" F="0" content="CTEJMAkJaWYgKFByaW1lLmlzUHJpbWUodmFsdWUpKQoJ" condition-coverage="50% (1/2)">
+<conditions>
+<condition number="0" type="jump" T="1" F="0" operator="if" argument="(Prime.isPrime(value))" coverage="50%"/>
+</conditions>
+</line>
+<line number="19" hits="2" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoyY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJncmVlbiI+PHNwYW4gY2xhc3M9ImdyZWVuIj5Db25zb2xlLldyaXRlTGluZSh2YWx1ZcKgK8KgJnF1b3Q7wqBpc8KgYcKgcHJpbWXCoG51bWJlciZxdW90Oyk7" c="7" branch="false"/>
+<line number="20" hits="2" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoyY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJncmVlbiI+PHNwYW4gY2xhc3M9ImdyZWVuIj50cnVlcysrOw==" c="7" branch="false"/>
+<line number="21" hits="2" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJncmVlbiI+fTwvc3Bhbj7CoGVsc2XCoDxzcGFuIGNsYXNzPSJyZWQiPns=" c="5" branch="false"/>
+<line number="22" hits="2" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoyY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJyZWQiPkNvbnNvbGUuV3JpdGVMaW5lKHZhbHVlwqArwqAmcXVvdDvCoGlzwqBub3TCoGHCoHByaW1lJnF1b3Q7KTs=" c="5" branch="false"/>
+<line number="23" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPn08L3NwYW4+" c="4" branch="false"/>
+<line number="24" hits="2" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPnRvdGFscysrOw==" c="7" branch="false"/>
+<line number="25" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPn08L3NwYW4+" c="4" branch="false"/>
+<line number="26" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDowY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPjwvc3Bhbj4=" c="4" branch="false"/>
+<line number="27" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPkNvbnNvbGUuV3JpdGVMaW5lKCZxdW90O8KgLSZndDvCoCZxdW90Oyt0cnVlcysmcXVvdDsvJnF1b3Q7K3RvdGFscysmcXVvdDvCoHRlc3RzwqByZXN1bHRlZMKgaW7CoGHCoHByaW1lwqBudW1iZXJcbiZxdW90Oyk7" c="7" branch="false"/>
+<line number="28" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPjwvc3Bhbj4=" c="4" branch="false"/>
+<line number="29" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo0Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPn08L3NwYW4+" c="4" branch="false"/>
+<line number="30" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDowY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPn08L3NwYW4+" c="4" branch="false"/>
+</lines>
+</file>
+<file name="home/roland/magpie/prime.cs" filename="prime.cs" dirpath="/home/roland/magpie" fullname="/home/roland/magpie/prime.cs" mcc="24% (4/17)" stmt="27% (3/11)" line-rate="0.4" branch-rate="0.5" complexity="11.26" lines="40% ((2+2)/10)">
+<functions>
+<function name="isPrime"  signature="()"  mcc="24% (4/17)" stmt="27% (3/11)" complexity="11.26" line-rate="0.4" lines="40% ((2+2)/10)" branch-rate="0.5">
+<lines>
+<line number="4" hits="1" render="PHNwYW4gaWQ9ImlzUHJpbWVfXyIgc3R5bGU9InBhZGRpbmctbGVmdDo0Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJncmVlbiI+cHVibGljIHN0YXRpYyBib29sIGlzUHJpbWUobG9uZyB2YWx1ZSk=" c="3" branch="false"/>
+<line number="6" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InllbGxvdyI+PHNwYW4gY2xhc3M9ImdyZWVuIj52YWx1ZSA9IDxzcGFuIGNsYXNzPSJ5ZWxsb3ciIHRpdGxlPSIxICAgVHJ1ZSYjMTA7MCAgIEZhbHNlJiMxMDsiPnZhbHVlICZndDsgMDwvc3Bhbj4gPyA8c3BhbiBjbGFzcz0iZ3JlZW4iPnZhbHVlPC9zcGFuPiA6IDxzcGFuIGNsYXNzPSJyZWQiPi12YWx1ZTwvc3Bhbj47" c="2" branch="true"  T="1" F="0" content="CTEJMAkJPyB2YWx1ZT4wCgk=" condition-coverage="50% (1/2)">
+<conditions>
+<condition number="0" type="jump" T="1" F="0" operator="?" argument="value&gt;0" coverage="50%"/>
+</conditions>
+</line>
+<line number="8" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InllbGxvdyI+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPmlmICg8c3BhbiBjbGFzcz0ieWVsbG93IiB0aXRsZT0iMSAgIFRydWUmIzEwOzAgICBGYWxzZSYjMTA7IGlmKHZhbHVlPDR8fHZhbHVlPT01fHx2YWx1ZT09NykmIzEwJiMwOTsxJiMwOTtUcnVlJiMxMDsmIzA5OzAmIzA5O0ZhbHNlJiMxMDsgVCB8fCDii4YgfHwg4ouGJiMxMCYjMDk7MSYjMDk7VHJ1ZSYjMTA7IEYgfHwgVCB8fCDii4YmIzEwJiMwOTswJiMwOTtUcnVlJiMxMDsgRiB8fCBGIHx8IFQmIzEwJiMwOTswJiMwOTtUcnVlJiMxMDsgRiB8fCBGIHx8IEYmIzEwJiMwOTswJiMwOTtGYWxzZSYjMTA7IHZhbHVlPDQmIzEwJiMwOTsxJiMwOTtUcnVlJiMxMDsmIzA5OzAmIzA5O0ZhbHNlJiMxMDsiPjxzcGFuIGNsYXNzPSJ5ZWxsb3dfdW5kZXIiIHRpdGxlPSIxICAgVHJ1ZSYjMTA7MCAgIEZhbHNlIj52YWx1ZSAmbHQ7IDQ8L3NwYW4+ICB8fCA8c3BhbiBjbGFzcz0icmVkX3VuZGVyIiB0aXRsZT0iMCAgIFRydWUmIzEwOzAgICBGYWxzZSI+dmFsdWUgPT0gNTwvc3Bhbj4gfHwgPHNwYW4gY2xhc3M9InJlZF91bmRlciIgdGl0bGU9IjAgICBUcnVlJiMxMDswICAgRmFsc2UiPnZhbHVlID09IDc8L3NwYW4+PC9zcGFuPikgPHNwYW4gY2xhc3M9ImdyZWVuIj57" c="2" branch="true"  T="1" F="0" content="CTEJMAkJaWYJCTEJCQk8c3BhbiBzdHlsZT0icGFkZGluZy1sZWZ0OjBjaCI+VCB8fCDii4YgfHwg4ouGPC9zcGFuPgkJMAkJCTxzcGFuIHN0eWxlPSJwYWRkaW5nLWxlZnQ6MGNoIj5GIHx8IFQgfHwg4ouGPC9zcGFuPgkJMAkJCTxzcGFuIHN0eWxlPSJwYWRkaW5nLWxlZnQ6MGNoIj5GIHx8IEYgfHwgVDwvc3Bhbj4JCQkwCQk8c3BhbiBzdHlsZT0icGFkZGluZy1sZWZ0OjBjaCI+RiB8fCBGIHx8IEY8L3NwYW4+CQkxCTAJPHN0cmlrZT5NQy9EQzwvc3RyaWtlPgk8c3BhbiBzdHlsZT0icGFkZGluZy1sZWZ0OjBjaCI+dmFsdWU8NDwvc3Bhbj4JCTAJMAk8c3RyaWtlPk1DL0RDPC9zdHJpa2U+CTxzcGFuIHN0eWxlPSJwYWRkaW5nLWxlZnQ6NWNoIj52YWx1ZT09NTwvc3Bhbj4JCTAJMAk8c3RyaWtlPk1DL0RDPC9zdHJpa2U+CTxzcGFuIHN0eWxlPSJwYWRkaW5nLWxlZnQ6MTBjaCI+dmFsdWU9PTc8L3NwYW4+CQ==" condition-coverage="25% (3/12)">
+<conditions>
+<condition number="0" type="jump" T="1" F="0" operator="" argument="(value&lt;4||value==5||value==7)" coverage="50%"/>
+<condition number="1" type="jump" T="1" operator="" argument="(multi)" coverage="50%"/>
+<condition number="2" type="jump" T="0" operator="" argument="(multi)" coverage="0%"/>
+<condition number="3" type="jump" T="0" operator="" argument="(multi)" coverage="0%"/>
+<condition number="4" type="jump" F="0" operator="" argument="(multi)" coverage="0%"/>
+<condition number="5" type="jump" T="1" F="0" operator="" argument="(multi)" coverage="50%"/>
+<condition number="6" type="jump" T="0" F="0" operator="" argument="(multi)" coverage="0%"/>
+<condition number="7" type="jump" T="0" F="0" operator="" argument="(multi)" coverage="0%"/>
+</conditions>
+</line>
+<line number="9" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJncmVlbiI+cmV0dXJuIHZhbHVlICE9IDA7" c="3" branch="false"/>
+<line number="10" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0icmVkIj59PC9zcGFuPiBlbHNlIDxzcGFuIGNsYXNzPSJyZWQiPjxzcGFuIGNsYXNzPSJyZWQiPmlmICg8c3BhbiBjbGFzcz0icmVkIiB0aXRsZT0iMCAgIFRydWUmIzEwOzAgICBGYWxzZSYjMTA7Ij52YWx1ZSAlIDIgPT0gMDwvc3Bhbj4pIDxzcGFuIGNsYXNzPSJyZWQiPns=" c="1" branch="true"  T="0" F="0" content="CTAJMAkJaWYgKHZhbHVlJTI9PTApCgk=" condition-coverage="0% (0/2)">
+<conditions>
+<condition number="0" type="jump" T="0" F="0" operator="if" argument="(value%2==0)" coverage="0%"/>
+</conditions>
+</line>
+<line number="11" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0icmVkIj48c3BhbiBjbGFzcz0icmVkIj48c3BhbiBjbGFzcz0icmVkIj48c3BhbiBjbGFzcz0icmVkIj5yZXR1cm4gZmFsc2U7" c="1" branch="false"/>
+<line number="14" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+Zm9yIChpbnQgZGl2aWRlbmQgPSAzOyA8c3BhbiBjbGFzcz0icmVkIiB0aXRsZT0iMCAgIFRydWUmIzEwOzAgICBGYWxzZSYjMTA7Ij5kaXZpZGVuZCAmbHQ7PSBNYXRoLlNxcnQodmFsdWUpPC9zcGFuPjsgPHNwYW4gY2xhc3M9InJlZCI+ZGl2aWRlbmQrPTI8L3NwYW4+KSA8c3BhbiBjbGFzcz0icmVkIj57ICAgICAgICAgICAg" c="1" branch="true"  T="0" F="0" content="CTAJMAkJZm9yICg7ZGl2aWRlbmQ8PU1hdGguU3FydCh2YWx1ZSk7KQoJ" condition-coverage="0% (0/2)">
+<conditions>
+<condition number="0" type="jump" T="0" F="0" operator="for" argument="(;dividend&lt;=Math.Sqrt(value);)" coverage="0%"/>
+</conditions>
+</line>
+<line number="15" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+aWYgKDxzcGFuIGNsYXNzPSJyZWQiIHRpdGxlPSIwICAgVHJ1ZSYjMTA7MCAgIEZhbHNlJiMxMDsiPnZhbHVlICUgZGl2aWRlbmQgPT0gMDwvc3Bhbj4pIDxzcGFuIGNsYXNzPSJyZWQiPns=" c="1" branch="true"  T="0" F="0" content="CTAJMAkJaWYgKHZhbHVlJWRpdmlkZW5kPT0wKQoJ" condition-coverage="0% (0/2)">
+<conditions>
+<condition number="0" type="jump" T="0" F="0" operator="if" argument="(value%dividend==0)" coverage="0%"/>
+</conditions>
+</line>
+<line number="16" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoyY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+cmV0dXJuIGZhbHNlOw==" c="1" branch="false"/>
+<line number="20" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+cmV0dXJuIHRydWU7" c="1" branch="false"/>
+</lines>
+</function>
+</functions>
+<lines>
+<line number="1" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDowY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPnVzaW5nwqBTeXN0ZW07wqA8L3NwYW4+" c="4" branch="false"/>
+<line number="2" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDowY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPjwvc3Bhbj4=" c="4" branch="false"/>
+<line number="3" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDowY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPmNsYXNzwqBQcmltZcKgezwvc3Bhbj4=" c="4" branch="false"/>
+<line number="4" hits="1" render="PHNwYW4gaWQ9ImlzUHJpbWVfXyIgc3R5bGU9InBhZGRpbmctbGVmdDo0Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJncmVlbiI+cHVibGljIHN0YXRpYyBib29sIGlzUHJpbWUobG9uZyB2YWx1ZSk=" c="3" branch="false"/>
+<line number="5" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo0Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPns8L3NwYW4+" c="4" branch="false"/>
+<line number="6" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InllbGxvdyI+PHNwYW4gY2xhc3M9ImdyZWVuIj52YWx1ZSA9IDxzcGFuIGNsYXNzPSJ5ZWxsb3ciIHRpdGxlPSIxICAgVHJ1ZSYjMTA7MCAgIEZhbHNlJiMxMDsiPnZhbHVlICZndDsgMDwvc3Bhbj4gPyA8c3BhbiBjbGFzcz0iZ3JlZW4iPnZhbHVlPC9zcGFuPiA6IDxzcGFuIGNsYXNzPSJyZWQiPi12YWx1ZTwvc3Bhbj47" c="2" branch="true"  T="1" F="0" content="CTEJMAkJPyB2YWx1ZT4wCgk=" condition-coverage="50% (1/2)">
+<conditions>
+<condition number="0" type="jump" T="1" F="0" operator="?" argument="value&gt;0" coverage="50%"/>
+</conditions>
+</line>
+<line number="7" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDowY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPjwvc3Bhbj4=" c="4" branch="false"/>
+<line number="8" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InllbGxvdyI+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPmlmICg8c3BhbiBjbGFzcz0ieWVsbG93IiB0aXRsZT0iMSAgIFRydWUmIzEwOzAgICBGYWxzZSYjMTA7IGlmKHZhbHVlPDR8fHZhbHVlPT01fHx2YWx1ZT09NykmIzEwJiMwOTsxJiMwOTtUcnVlJiMxMDsmIzA5OzAmIzA5O0ZhbHNlJiMxMDsgVCB8fCDii4YgfHwg4ouGJiMxMCYjMDk7MSYjMDk7VHJ1ZSYjMTA7IEYgfHwgVCB8fCDii4YmIzEwJiMwOTswJiMwOTtUcnVlJiMxMDsgRiB8fCBGIHx8IFQmIzEwJiMwOTswJiMwOTtUcnVlJiMxMDsgRiB8fCBGIHx8IEYmIzEwJiMwOTswJiMwOTtGYWxzZSYjMTA7IHZhbHVlPDQmIzEwJiMwOTsxJiMwOTtUcnVlJiMxMDsmIzA5OzAmIzA5O0ZhbHNlJiMxMDsiPjxzcGFuIGNsYXNzPSJ5ZWxsb3dfdW5kZXIiIHRpdGxlPSIxICAgVHJ1ZSYjMTA7MCAgIEZhbHNlIj52YWx1ZSAmbHQ7IDQ8L3NwYW4+ICB8fCA8c3BhbiBjbGFzcz0icmVkX3VuZGVyIiB0aXRsZT0iMCAgIFRydWUmIzEwOzAgICBGYWxzZSI+dmFsdWUgPT0gNTwvc3Bhbj4gfHwgPHNwYW4gY2xhc3M9InJlZF91bmRlciIgdGl0bGU9IjAgICBUcnVlJiMxMDswICAgRmFsc2UiPnZhbHVlID09IDc8L3NwYW4+PC9zcGFuPikgPHNwYW4gY2xhc3M9ImdyZWVuIj57" c="2" branch="true"  T="1" F="0" content="CTEJMAkJaWYJCTEJCQk8c3BhbiBzdHlsZT0icGFkZGluZy1sZWZ0OjBjaCI+VCB8fCDii4YgfHwg4ouGPC9zcGFuPgkJMAkJCTxzcGFuIHN0eWxlPSJwYWRkaW5nLWxlZnQ6MGNoIj5GIHx8IFQgfHwg4ouGPC9zcGFuPgkJMAkJCTxzcGFuIHN0eWxlPSJwYWRkaW5nLWxlZnQ6MGNoIj5GIHx8IEYgfHwgVDwvc3Bhbj4JCQkwCQk8c3BhbiBzdHlsZT0icGFkZGluZy1sZWZ0OjBjaCI+RiB8fCBGIHx8IEY8L3NwYW4+CQkxCTAJPHN0cmlrZT5NQy9EQzwvc3RyaWtlPgk8c3BhbiBzdHlsZT0icGFkZGluZy1sZWZ0OjBjaCI+dmFsdWU8NDwvc3Bhbj4JCTAJMAk8c3RyaWtlPk1DL0RDPC9zdHJpa2U+CTxzcGFuIHN0eWxlPSJwYWRkaW5nLWxlZnQ6NWNoIj52YWx1ZT09NTwvc3Bhbj4JCTAJMAk8c3RyaWtlPk1DL0RDPC9zdHJpa2U+CTxzcGFuIHN0eWxlPSJwYWRkaW5nLWxlZnQ6MTBjaCI+dmFsdWU9PTc8L3NwYW4+CQ==" condition-coverage="25% (3/12)">
+<conditions>
+<condition number="0" type="jump" T="1" F="0" operator="" argument="(value&lt;4||value==5||value==7)" coverage="50%"/>
+<condition number="1" type="jump" T="1" operator="" argument="(multi)" coverage="50%"/>
+<condition number="2" type="jump" T="0" operator="" argument="(multi)" coverage="0%"/>
+<condition number="3" type="jump" T="0" operator="" argument="(multi)" coverage="0%"/>
+<condition number="4" type="jump" F="0" operator="" argument="(multi)" coverage="0%"/>
+<condition number="5" type="jump" T="1" F="0" operator="" argument="(multi)" coverage="50%"/>
+<condition number="6" type="jump" T="0" F="0" operator="" argument="(multi)" coverage="0%"/>
+<condition number="7" type="jump" T="0" F="0" operator="" argument="(multi)" coverage="0%"/>
+</conditions>
+</line>
+<line number="9" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0iZ3JlZW4iPjxzcGFuIGNsYXNzPSJncmVlbiI+cmV0dXJuIHZhbHVlICE9IDA7" c="3" branch="false"/>
+<line number="10" hits="1" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0icmVkIj59PC9zcGFuPiBlbHNlIDxzcGFuIGNsYXNzPSJyZWQiPjxzcGFuIGNsYXNzPSJyZWQiPmlmICg8c3BhbiBjbGFzcz0icmVkIiB0aXRsZT0iMCAgIFRydWUmIzEwOzAgICBGYWxzZSYjMTA7Ij52YWx1ZSAlIDIgPT0gMDwvc3Bhbj4pIDxzcGFuIGNsYXNzPSJyZWQiPns=" c="1" branch="true"  T="0" F="0" content="CTAJMAkJaWYgKHZhbHVlJTI9PTApCgk=" condition-coverage="0% (0/2)">
+<conditions>
+<condition number="0" type="jump" T="0" F="0" operator="if" argument="(value%2==0)" coverage="0%"/>
+</conditions>
+</line>
+<line number="11" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9ImdyZWVuIj48c3BhbiBjbGFzcz0icmVkIj48c3BhbiBjbGFzcz0icmVkIj48c3BhbiBjbGFzcz0icmVkIj48c3BhbiBjbGFzcz0icmVkIj5yZXR1cm4gZmFsc2U7" c="1" branch="false"/>
+<line number="12" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPn08L3NwYW4+" c="4" branch="false"/>
+<line number="13" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDowY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPjwvc3Bhbj4=" c="4" branch="false"/>
+<line number="14" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+Zm9yIChpbnQgZGl2aWRlbmQgPSAzOyA8c3BhbiBjbGFzcz0icmVkIiB0aXRsZT0iMCAgIFRydWUmIzEwOzAgICBGYWxzZSYjMTA7Ij5kaXZpZGVuZCAmbHQ7PSBNYXRoLlNxcnQodmFsdWUpPC9zcGFuPjsgPHNwYW4gY2xhc3M9InJlZCI+ZGl2aWRlbmQrPTI8L3NwYW4+KSA8c3BhbiBjbGFzcz0icmVkIj57ICAgICAgICAgICAg" c="1" branch="true"  T="0" F="0" content="CTAJMAkJZm9yICg7ZGl2aWRlbmQ8PU1hdGguU3FydCh2YWx1ZSk7KQoJ" condition-coverage="0% (0/2)">
+<conditions>
+<condition number="0" type="jump" T="0" F="0" operator="for" argument="(;dividend&lt;=Math.Sqrt(value);)" coverage="0%"/>
+</conditions>
+</line>
+<line number="15" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+aWYgKDxzcGFuIGNsYXNzPSJyZWQiIHRpdGxlPSIwICAgVHJ1ZSYjMTA7MCAgIEZhbHNlJiMxMDsiPnZhbHVlICUgZGl2aWRlbmQgPT0gMDwvc3Bhbj4pIDxzcGFuIGNsYXNzPSJyZWQiPns=" c="1" branch="true"  T="0" F="0" content="CTAJMAkJaWYgKHZhbHVlJWRpdmlkZW5kPT0wKQoJ" condition-coverage="0% (0/2)">
+<conditions>
+<condition number="0" type="jump" T="0" F="0" operator="if" argument="(value%dividend==0)" coverage="0%"/>
+</conditions>
+</line>
+<line number="16" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoyY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+cmV0dXJuIGZhbHNlOw==" c="1" branch="false"/>
+<line number="17" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo1Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPn08L3NwYW4+" c="4" branch="false"/>
+<line number="18" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPn08L3NwYW4+" c="4" branch="false"/>
+<line number="19" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo0Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPjwvc3Bhbj4=" c="4" branch="false"/>
+<line number="20" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDoxY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+PHNwYW4gY2xhc3M9InJlZCI+cmV0dXJuIHRydWU7" c="1" branch="false"/>
+<line number="21" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDo0Y2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPn08L3NwYW4+" c="4" branch="false"/>
+<line number="22" hits="0" render="PHNwYW4gc3R5bGU9InBhZGRpbmctbGVmdDowY2g7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ij48L3NwYW4+PHNwYW4gY2xhc3M9ImxldHRlcnMiPn08L3NwYW4+" c="4" branch="false"/>
+</lines>
+</file>
+</directory>
+</directories>
+</coverage>
